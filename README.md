@@ -29,7 +29,6 @@ It allows users to search any city and view real-time weather data, a 5-day fore
 |-----------------|-------------------------|
 | Frontend        | React + Vite            |
 | Styling         | Tailwind CSS            |
-| Charts          | Recharts                |
 | AI Integration  | Google Gemini API        |
 | API Source      | OpenWeatherMap API      |
 
@@ -45,3 +44,5 @@ Follow these steps to run the project locally:
 git clone https://github.com/your-username/weather-app.git
 cd weather-app
 
+---
+<br/>
