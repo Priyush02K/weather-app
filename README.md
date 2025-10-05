@@ -53,7 +53,7 @@ npm install
 ```bash
 npm run dev
 ```
-
+---
 ###🧪 Running Tests
 
 This project uses **Vitest** + **React Testing Library** for component testing.
@@ -66,4 +66,35 @@ npm install -D vitest @testing-library/react @testing-library/jest-dom jsdom
 ```bash
 npm test
 ```
+
+---
+
+🧠 Assumptions & Design Choices
+
+The app uses OpenWeatherMap’s free tier — ideal for demo purposes.
+
+AI Assistant is designed for light contextual replies (fun + short).
+
+Local storage keeps only the last 5 cities to prevent clutter.
+
+Weather icons and forecast use OpenWeatherMap’s standard icon pack.
+
+Design kept mobile-first with Tailwind’s responsive utilities.
+
+Background animations are optional — gracefully degrade if the library fails.
+
+---
+🌟 Future Enhancements
+
+Add voice search for city input
+
+Add Dark Mode toggle
+
+Integrate PWA support for offline access
+
+Display air quality index (AQI)
+
+
+---
+
 
