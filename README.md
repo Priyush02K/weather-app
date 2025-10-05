@@ -43,6 +43,27 @@ Follow these steps to run the project locally:
 ```bash
 git clone https://github.com/your-username/weather-app.git
 cd weather-app
+```
+###2️⃣ Install Dependencies
+```bash
+npm install
+```
 
----
-<br/>
+###3️⃣Run the Development Server
+```bash
+npm run dev
+```
+
+###🧪 Running Tests
+
+This project uses **Vitest** + **React Testing Library** for component testing.
+
+### Setup:
+```bash
+npm install -D vitest @testing-library/react @testing-library/jest-dom jsdom
+```
+### Run All Tests:
+```bash
+npm test
+```
+
