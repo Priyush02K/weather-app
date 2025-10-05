@@ -1,16 +1,48 @@
-# React + Vite
+# 🌦️ Smart Weather App with AI Assistant
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean and modern **Weather Application** built with **React + Vite** and styled using **Tailwind CSS**.  
+It allows users to search any city and view real-time weather data, a 5-day forecast, and even get **personalized AI recommendations** based on the weather — powered by **Google Gemini AI**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+### 🌤 Core Features
+- Search weather by city using the **OpenWeatherMap API**
+- Display **current temperature**, **humidity**, and **weather condition**
+- Handle **loading** and **error** states gracefully
+- Responsive and clean **Tailwind UI**
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 💡 Bonus Features
+- **Local Storage**: Saves and displays last searched cities
+- **AI Assistant**: Suggests fun activities and outfit ideas using **Gemini API**
+- **5-Day Forecast** with charts using **Recharts**
+- **Dynamic Background Animations** (rain, clouds, clear sky)
+- **Unit Toggle** between °C / °F
+- **Geolocation** support – auto-fetch weather for your current location
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🧩 Tech Stack
+
+| Category        | Technology              |
+|-----------------|-------------------------|
+| Frontend        | React + Vite            |
+| Styling         | Tailwind CSS            |
+| AI Integration  | Google Gemini API        |
+| API Source      | OpenWeatherMap API      |
+
+
+---
+
+## ⚙️ Setup & Installation
+
+Follow these steps to run the project locally:
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/your-username/weather-app.git
+cd weather-app
+
+---
+<br/>
